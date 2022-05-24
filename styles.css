@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Aleo", serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+}
+
+img {
+  width: 100px;
+}
+/* navigation */
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 72px;
+  padding: 0px 6rem;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.02);
+}
+
+.nav-links {
+  margin-right: 3.5rem;
+}
+/* end of navigation */
+/* about */
+.about {
+  width: 100%;
+  height: 468px;
+  background: #d2e1fd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-us {
+  width: 722px;
+  height: 93px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.about-button {
+  width: 170px;
+  height: 60px;
+  background: #2871f6;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  margin-top: 2rem;
+}
+/* end of about */
+/* footer */
+.footer {
+  width: 100%;
+  height: 417px;
+  background: #000000;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location {
+  margin-right: 5.5rem;
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+}
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 1rem;
+}
+.contact-icon {
+  margin-right: 1rem;
+}
