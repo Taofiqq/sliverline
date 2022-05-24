@@ -9,7 +9,7 @@
 
 body {
   font-family: "Aleo", serif;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 li {
   list-style: none;
