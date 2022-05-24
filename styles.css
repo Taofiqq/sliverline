@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;1,300&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -100,8 +100,90 @@ img {
   top: 0;
 }
 /* end of navigation */
-/* about */
 
+/* services */
+.services {
+  width: 100%;
+  /* height: 100vh; */
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services-title {
+  font-size: 2rem;
+}
+
+.services-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-img-container {
+  margin-top: 3rem;
+}
+.service-img {
+  width: 100%;
+}
+.service-one {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 238px;
+  height: 0px;
+  border: 3px solid #5c7aea;
+  margin-top: 3rem;
+}
+.service-description-header {
+  display: flex;
+}
+
+.description-title {
+  width: 291px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 2.5rem;
+}
+.description-title-two {
+  width: 291px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 2.5rem;
+  margin-bottom: 7.88rem;
+}
+.service-number {
+  font-size: 100px;
+  line-height: 72px;
+  color: #1758ce;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-right: 2rem;
+}
+.service-text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+  width: 100px;
+  height: 81px;
+}
+.service-text-two {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+  width: 8.13rem;
+  height: 81px;
+}
+/* end of services */
+
+/* about */
 .about {
   width: 100%;
   height: 468px;
@@ -149,7 +231,6 @@ img {
     margin-bottom: 4rem;
   }
 }
-
 /* end of about */
 /* footer */
 .footer {
@@ -202,8 +283,8 @@ img {
   margin-top: 2rem;
   font-size: 1rem;
 }
+/* end of footer */
 /* media queries */
-
 @media screen and (min-width: 768px) {
   .nav-toggle,
   .nav-close {
@@ -221,3 +302,5 @@ img {
     font-size: 0.8rem;
   }
 }
+
+/* end of media queries */
