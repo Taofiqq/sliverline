@@ -4,12 +4,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
+  /* overflow: hidden; */
 }
 
 body {
   font-family: "Aleo", serif;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 li {
   list-style: none;
@@ -101,6 +101,7 @@ img {
 }
 /* end of navigation */
 /* about */
+
 .about {
   width: 100%;
   height: 468px;
@@ -109,14 +110,6 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.about-us {
-  width: 722px;
-  height: 93px;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 300;
 }
 
 .about-button {
@@ -129,6 +122,34 @@ img {
   font-size: 18px;
   margin-top: 2rem;
 }
+
+.about-us {
+  width: 20rem;
+  /* height: 13rem; */
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+}
+@media screen and (min-width: 768px) {
+  .about-us {
+    width: 722px;
+    height: 93px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+  }
+}
+@media screen and (max-width: 330px) {
+  .about-us {
+    width: 14rem;
+    height: 93px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 4rem;
+  }
+}
+
 /* end of about */
 /* footer */
 .footer {
@@ -158,4 +179,18 @@ img {
 }
 .contact-icon {
   margin-right: 1rem;
+}
+
+/* media queries */
+
+@media screen and (min-width: 768px) {
+  .nav-toggle,
+  .nav-close {
+    display: none;
+  }
+
+  .nav-list {
+    flex-direction: row;
+    column-gap: 3.5rem;
+  }
 }
