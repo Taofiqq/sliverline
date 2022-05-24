@@ -14,11 +14,11 @@
   </head>
   <body>
     <!-- header -->
-    <header>
-      <nav class="nav-header">
+    <header class="header">
+      <!-- <nav class="nav-header">
         <div class="logo">
           <a href="#" class="nav-links">
-            <img src="./assets/logo2.png" alt="" />
+           
           </a>
         </div>
 
@@ -26,6 +26,34 @@
           <a href="#services" class="nav-links">Services</a>
           <a href="#about" class="nav-links">About</a>
           <a href="#contact" class="nav-links">Contact</a>
+        </div>
+      </nav> -->
+
+      <nav class="nav container">
+        <a href="#" class="nav-logo">
+          <img src="./assets/logo2.png" alt="" />
+        </a>
+
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#srvices" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="nav-close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+        </div>
+
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
         </div>
       </nav>
     </header>
@@ -72,5 +100,7 @@
       </div>
     </footer>
     <!-- End of footer -->
+
+    <script src="./script.js"></script>
   </body>
 </html>
