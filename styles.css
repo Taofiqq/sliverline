@@ -94,8 +94,6 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background: linear-gradient(to bottom, #d2e1fd 50%, #fff 50%); */
-  /* background: #d2e1fd; */
 }
 
 .home-title {
@@ -124,21 +122,22 @@ img {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   margin-top: 2.25rem;
+  cursor: pointer;
+  text-align: center;
 }
 /* end of home */
 
 /* services */
 .services {
   width: 100%;
-  /* height: 100vh; */
   margin-top: 10rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 10rem;
 }
 .services-title {
   font-size: 2rem;
+  text-align: center;
 }
 
 .services-content {
@@ -153,6 +152,12 @@ img {
 }
 .service-img {
   width: 100%;
+}
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .service-one {
   margin-top: 4rem;
@@ -207,6 +212,7 @@ img {
   width: 8.13rem;
   height: 81px;
 }
+
 /* end of services */
 
 /* about */
@@ -229,6 +235,7 @@ img {
   color: white;
   font-size: 18px;
   margin-top: 2rem;
+  cursor: pointer;
 }
 
 .about-us {
@@ -316,10 +323,70 @@ img {
   .nav-close {
     display: none;
   }
-
   .nav-list {
     flex-direction: row;
     column-gap: 3.5rem;
+  }
+  .home {
+    flex-direction: row-reverse;
+    column-gap: 10rem;
+    position: relative;
+  }
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6.75rem;
+    /* justify-content: center;
+    align-items: center; */
+  }
+
+  .home-title {
+    width: 454px;
+    font-size: 44px;
+    line-height: 53px;
+    text-align: left;
+  }
+
+  .home-img-container {
+    background: #d2e1fd;
+    width: 750px;
+    height: 375px;
+    border-bottom-left-radius: 510px;
+    border-bottom-right-radius: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-img {
+    width: 450px;
+  }
+  .services-content {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .services-title {
+    text-align: center;
+  }
+
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .services-img-container {
+    margin-right: 14rem;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    align-items: center;
+    height: 26rem;
+  }
+
+  .contact-us {
+    margin-left: -10rem;
   }
 }
 @media screen and (max-width: 295px) {
@@ -330,12 +397,3 @@ img {
 }
 
 /* end of media queries */
-
-.bg {
-  background: linear-gradient(
-    to bottom,
-    #ddd 50%,
-    #9a8d6d 50%
-  ); /* Go towards the bottom, Cover #ddd for 50%, Cover #9a8d60 for the other half */
-  height: 200px;
-}
