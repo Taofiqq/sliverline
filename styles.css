@@ -111,6 +111,13 @@ img {
 .home-img {
   width: 100%;
 }
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .home-button {
   width: 170px;
   height: 60px;
